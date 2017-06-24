@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 通用 */
+* {margin: 0;padding: 0;border: 0;}
+body {font-size: 12px;color: #676767;font-family: "Microsoft Yahei", SimSun;}
+a {text-decoration: none;color: #676767;}
+ul {list-style: none;}
+.left {display: inline;float: left;}
+.right {display: inline;float: right;}
+.clr {clear: both;}
+/* 头部背景 */
+.top_bg {height: 32px;width: 100%;background: url(../images/top_bg.jpg) repeat-x;}
+/* 头部 */
+.top {height: 103px;width: 1030px;margin: 0 auto;}
+/* 头部左侧 */
+.logo {background: url(../images/logo.jpg) no-repeat;display: block;height: 103px;margin-left: 20px;}
+.top_left {float: left;height: 103px;width: 330px;}
+/* 头部右侧 */
+.top_right {float: left;height: 103px;width: 700px;}
+.top_info {height: 33px;width: 270px;float: right;margin-top: 5px;margin-right: 90px;text-align: right;}
+#top_info_time {margin-right: 10px;}
+/* 头部导航栏 */
+.nav ul {height: 50px;width: 700px;float: left;margin-top: 5px;}
+.nav li {float: left;display: block;height: 35px;width: 75px;line-height: 35px;padding: 0px 5px;text-align: center;font-size: 16px;margin-left:5px;}
+.nav li:hover {border-bottom: #C1070A solid 3px;color: #C1070A;}
+/* 头部导航栏竖线 */
+.line {float: left;height: 11px;width: 1px;	background: #ccc;margin-top: 10px;}
+/* Banner */
+.banner {height: 384px;width: 1262px;background: url(../images/banner.jpg) no-repeat;margin: 0 auto;}
+/* Container */
+#container {width: 1030px;margin: 0 auto;}
+/* 公告栏及搜索框*/
+.notice_search {display: block;height: 20px;width: 800px;margin: 0 auto;padding-top: 10px;}
+.notice_search li {float: left;}
+.notice_ico {height: 16px;width: 16px;background: url(../images/ico.gif) no-repeat;padding-right: 10px;}
+.notice {width: 500px;}
+.search {width: 250px;}
+.search_box {border: #CCCCCC solid 1px;}
+.btn_search {padding: 2px;margin-left: 5px;background: #e3e3e3;}
+/* 热点新闻 */
+.container_t {width: 980px;height: 200px;margin: 0 auto;}
+.hot_title {font-size: 17px;color: #333;border-bottom: #666 dotted 1px;padding: 10px;}
+.hot_title_more {float: right;font-size: 12px;margin-top: 5px;}
+.news_box {height: 130px;width: 300px;background: #fbfbfb url(../images/news_bg.jpg) repeat-x;margin: 15px 11px;border: #e3e3e3 solid 1px;}
+.news_l li {float: left;padding-top: 10px;}
+.news_in_l {margin: 20px 0px 10px 20px;width: 150px;}
+.news_in_l p {margin-top: 15px;}
+.news_in_r {margin: 5px 0 0 5px;}
+.news_in_r img{ margin-top:10px;}
+.container_m{width:300px;height:600px;margin:0 auto; text-align:center;float:left;}
+.container_m li{}
+.bt{ font-size:14px; font-family:Verdana, Geneva, sans-serif; color:#F00;margin-left:20px;}
+.bt_in{list-style-type:none;}
+.two_code{widht:220px;height:520px;}
+.two_code h3{margin:10px 0 0 20px;color:#999; }
+.code_1{ text-align::center;margin:30px 60px; list-style-type:none;height:200px;}
+.code_2{ text-align::center;margin:30px 60px;list-style-type:none;}
+.container_m_r{width:645px;height:520px;float:left;}
+.new_list{height:260px;}
+.new_list more{ font-size:14px;color:666;float:right;}
+.dongtai_l{margin:5px 20px 20px 20px;}
+.dongtai_r{ line-height:2em;margin:10px; font-size:12px;width:600px;}
+.dongtai_r_time{ float:right;}
+.container_m_r2{width:645px;height:520px;float:left;margin-top:-280px;}
+.new_list2{height:260px;}
+.dongtai_l2{margin:5px 20px 20px 20px;}
+.container_m_r3{width:1030px;height:220px;float:left;margin-top:-280px;}
+.new_list3{height:260px;}
+.show1{ text-align::center;margin:20px 10px; list-style-type:none; text-align:center;}
+.show2{ text-align::center;margin:20px 10px; list-style-type:none;text-align:center;}
+.show3{ text-align::center;margin:20px 10px; list-style-type:none;text-align:center;}
+.show4{ text-align::center;margin:20px 10px; list-style-type:none;text-align:center;}
+.show5{ text-align::center;margin:20px 10px; list-style-type:none;text-align:center;}
+<!--尾部-->
+.foot{ background:#CCCCCC;wdith:100%;height:500px;}
+.foot_bg {height: 100px;width: 100%;background:url(../images/foot_bg.jpg) repeat-x;}
+.foot ul{width:1030px;height:100px;float:left;text-align:center;  margin-top:20px;}
+.foot_bg_in{text-decoration:underline;}
+

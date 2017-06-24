@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* init */
+*{ margin:0; padding:0; border:0}
+.left{ float:left; display:inline}
+.right{ float:right; display:inline}
+.clr{ clear:both}
+
+/* top */
+.top_bg{ width:100%; height:30px; background:url(file:///C|/Documents%20and%20Settings/Administrator/%E6%A1%8C%E9%9D%A2/1029/images/top_bg.jpg) repeat-x}
+.top{ width:1003px; height:100px;  margin:0 auto}
+.img{ width:300px;height:120px;margin-left:120px;}
+.class{width:300px;height:120px;}
+.a_in_l li{ width:80px; height:30px; flolt:left;}
+.a_in_r{float:right; font-size:15px;}
+.adv{width:940px; height:74px; margin-top:20px;}
+
+

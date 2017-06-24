@@ -1,0 +1,54 @@
+.css {
+}
+
+*{margin:0;padding:0;border:0;} 
+.top {width:100%;height:100px;background:#000000;}
+.nav {
+	width: 1500px;
+	height: 30px;
+	flolt: left;
+}
+.nav ul {
+	list-style:none
+}
+.nav li {
+	float:left;
+	margin-right:10px;
+	margin-top:20px;
+	text-align:center;
+	line-height:50px;
+	height:50px;
+	width:120px;
+	display:block;
+}
+.nav li a {
+	color:#666;
+	text-decoration:none;
+	display:inline;
+}
+.nav li:hover {
+ 	color:#bd2300;
+ 	border-bottom:2px #bd2300 solid;
+	}
+	
+.nav li a:hover {
+ 	color:#bd2300;
+	}
+.cz{width: 300px;
+	height: 120px;
+	margin-left: 220px;
+	margin-top:10px;
+	float: left;
+	text-align:center;}
+.head{width: 100%;
+	height: 100px;
+	background:url(huitiao.jpg) repeat-x}
+.head_in{width: 1500px;
+	height: 30px;
+	}
+.head_in ul {float:right;height:30px;}
+.head_in li {float:left;
+	text-align:center;
+	line-height:30px;;
+	width:50px;
+	display:block;}
